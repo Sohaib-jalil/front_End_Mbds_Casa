@@ -1,0 +1,35 @@
+form {
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 30px;
+ }
+form .input{
+    color: rgba(0, 0, 0, 0.397);
+ }
+
+ .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    top: 20%;
+    padding: 20px;
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+}
+ 
+ .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.addBtn {
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+.cancelBtn {
+    align-self: center;
+}

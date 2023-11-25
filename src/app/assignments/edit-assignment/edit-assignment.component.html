@@ -1,0 +1,28 @@
+<mat-card class="card" *ngIf="assignment">
+  <div class="container">
+    <h1>Edit The Assignment: {{assignment.nom}}</h1>
+    <form ngForm class="form" #formupdate (submit)="onSaveAssignment(); formupdate.reset(); ">
+      <mat-form-field>
+        <input matInput placeholder="Nom du Prof" [(ngModel)]="nom_du_prof" name="nom_du_prof">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="Matiere" [(ngModel)]="matiere" name="matiere">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="Edition du nom" [(ngModel)]="nomAssignment" name="assignment-name">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput [matDatepicker]="picker" placeholder="Edition de la date" [(ngModel)]="dateDeRendu" name="date">
+        <mat-datepicker-toggle matSuffix [for]="picker">
+        </mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+      <button mat-raised-button color="primary" [disabled]="((!nomAssignment)||(!dateDeRendu))">
+        Sauver
+      </button>
+    </form>
+   </div>
+</mat-card>
+<mat-card *ngIf="!assignment" class="card">
+  <h1>Working On It...</h1>
+</mat-card>  

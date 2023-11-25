@@ -1,0 +1,29 @@
+.container {
+    width: fit-content;
+    max-width: 100%;
+    min-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.form {
+    min-width: fit-content;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: fit-content;
+    width: 50%;
+    max-width: 100%;
+    margin: auto;
+    top: 20%;
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+}

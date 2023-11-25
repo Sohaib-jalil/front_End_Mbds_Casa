@@ -1,0 +1,19 @@
+
+<div class="main">
+    <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    <form class="logInForm">
+        <h3>LOGIN</h3>
+
+        <label for="username">Username</label>
+        <input type="text" name="nom" value="{{nom}}" placeholder="USERNAME" id="username" [(ngModel)]="nom" autocomplete="off"/>
+
+        <label for="password">Password</label>
+        <input type="password" name="password" value="{{password}}" placeholder="PASSWORD" id="password" [(ngModel)]="password" autocomplete="off"/>
+
+        <p style="color: rgba(255, 0, 0, 0.762);">{{message}}</p>
+        <button [ngClass]="{'button1': message==null, 'button2': message!=null}" (click)="logIn()">Log In</button>
+    </form>
+</div>
