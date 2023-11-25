@@ -9,7 +9,7 @@ Users = [{id:1, nom:"admin", password:"admin", role:"admin"}, {id:1, nom:"user",
 # App deployed in koyeb (https://www.koyeb.com)
 
 - you can access it through this link: https://assignment-app-emsi.koyeb.app/home
-- if previous link doesn't work use alternative link : https://assignment-app-emsi.koyeb.app/logIn
+- if previous link doesn't work use alternative link : https://assignment-app-emsi.koyeb.app/assignment/1
 
 ![Opera Snapshot_2023-11-25_200901_app koyeb com](https://github.com/Sohaib-jalil/front_End_Mbds_Casa/assets/92445933/34149ca5-7e47-4c0a-991f-3cb849fb3810)
 
