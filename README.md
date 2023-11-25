@@ -2,6 +2,10 @@
 
 Users = [{id:1, nom:"admin", password:"admin", role:"admin"}, {id:1, nom:"user", password:"user", role:"user"}]
 
+- if not logged In you can only view the assignment list
+- the user can only view the assignment list and the details of each assignment
+- the admin on top of what the user can do he can add, update and delete assignments
+
 # App deployed in koyeb (https://www.koyeb.com)
 
 you can access it through this link: https://assignment-app-emsi.koyeb.app/home
