@@ -2,7 +2,7 @@
 
 Users = [{id:1, nom:"admin", password:"admin", role:"admin"}, {id:1, nom:"user", password:"user", role:"user"}]
 
-# App deployed in Render (https://www.koyeb.com)
+# App deployed in koyeb (https://www.koyeb.com)
 
 you can access it through this link: https://assignment-app-emsi.koyeb.app/home
 
