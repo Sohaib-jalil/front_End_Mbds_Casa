@@ -13,7 +13,9 @@ export class AssignmentsService {
  
   constructor(private logginService:LoggingService, private http:HttpClient) { }
 
-  url = "https://api-assignments-app.onrender.com/api/assignments"
+  /* url = "http://localhost:8010/api/assignments" */
+  /* url = "https://api-assignments-app.onrender.com/api/assignments" */
+  url = "https://crabby-jade-gilet.cyclic.app/api/assignments"
 
   getAssignments(): Observable<Assignment[]> {
     this.obsAssignments = this.http.get<Assignment[]>(this.url);
