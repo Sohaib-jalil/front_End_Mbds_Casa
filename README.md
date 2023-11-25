@@ -2,6 +2,15 @@
 
 Users = [{id:1, nom:"admin", password:"admin", role:"admin"}, {id:1, nom:"user", password:"user", role:"user"}]
 
+# App deployed in Render (https://www.koyeb.com)
+
+you can access it through this link: https://assignment-app-emsi.koyeb.app/home
+
+![Opera Snapshot_2023-11-25_200901_app koyeb com](https://github.com/Sohaib-jalil/front_End_Mbds_Casa/assets/92445933/34149ca5-7e47-4c0a-991f-3cb849fb3810)
+
+![image_2023-11-25_200953776](https://github.com/Sohaib-jalil/front_End_Mbds_Casa/assets/92445933/02861c9c-4eab-4b30-9683-9067d1be5318)
+
+
 # AssignmentApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.2.
