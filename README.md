@@ -15,6 +15,9 @@ Users = [{id:1, nom:"admin", password:"admin", role:"admin"}, {id:1, nom:"user",
 
 ![image_2023-11-25_200953776](https://github.com/Sohaib-jalil/front_End_Mbds_Casa/assets/92445933/02861c9c-4eab-4b30-9683-9067d1be5318)
 
+# video de demonstration
+
+https://github.com/UniCA-EMSI-CASA-MBDS/projet-Sohaib-jalil/assets/92445933/bc54e0d0-542d-481b-8b23-fc186c15fcdb
 
 # AssignmentApp
 
